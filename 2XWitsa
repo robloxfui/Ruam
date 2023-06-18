@@ -1,0 +1,10 @@
+repeat wait() until game:IsLoaded();
+if game.PlaceId == 2753915549 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Luxurys/main/x2switx"))()
+elseif game.PlaceId == 3652625463 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Luxuryx/main/X2Super"))()
+else
+    game.Players.LocalPlayer:Kick("💠 Wrong Game 💠")
+    wait(1)
+    game:Shutdown()
+end
